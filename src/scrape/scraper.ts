@@ -15,7 +15,7 @@ async function Scraper() {
         const $ = cheerio.load(html);
         const textData = $('div').text();
         const jsonData = JSON.stringify(textData,null,2);
-        fs.writeFileSync(fileName, jsonData);
+        fs.writeFileSync(fileName, jsonData, "utf8");
     }catch (error){
         console.error(error);
 
