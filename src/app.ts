@@ -1,4 +1,1 @@
-function cookies() {
-
-let thing:string = "top"
-}
+import fs from "fs";

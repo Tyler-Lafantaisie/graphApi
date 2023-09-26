@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+        "target": "esnext",
+    "module": "Nodenext",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true
+  }
+}
